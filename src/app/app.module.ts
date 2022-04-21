@@ -12,15 +12,13 @@ import { AppComponent } from './app.component';
 import { PhotoPageComponent } from './components/pages/photo-page/photo-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { MetaPageComponent } from './components/pages/meta-page/meta-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PhotoPageComponent,
     NavbarComponent,
-    FooterComponent,
-    MetaPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
