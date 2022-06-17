@@ -12,13 +12,20 @@ import { AppComponent } from './app.component';
 import { PhotoPageComponent } from './components/pages/photo-page/photo-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { StartPageComponent } from './components/pages/start-page/start-page.component';
+import { ScriptPageComponent } from './components/pages/script-page/script-page.component';
+import { MoviePageComponent } from './components/pages/movie-page/movie-page.component';
+import {PdfViewerModule} from "ng2-pdf-viewer";
 
 @NgModule({
   declarations: [
     AppComponent,
     PhotoPageComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    StartPageComponent,
+    ScriptPageComponent,
+    MoviePageComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +33,8 @@ import { FooterComponent } from './components/footer/footer.component';
     NgbModule,
     BrowserAnimationsModule,
     MatTooltipModule,
-    MatButtonModule
+    MatButtonModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
